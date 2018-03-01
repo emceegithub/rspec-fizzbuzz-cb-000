@@ -1,9 +1,9 @@
 def fizzbuzz(int)
   if int % 3 == 0 # if the number int is divisible by 3
-    "Fizz" # Go fizz
+    return "Fizz" # Go fizz
   elsif int % 5 == 0
-    "Buzz"
+    return "Buzz"
   else (int % 5 == 0) && (int % 3 == 0)
-    "FizzBuzz"
+    retun "FizzBuzz"
   end
 end
